@@ -8,6 +8,7 @@ Source0:	Input-Font-%{version}.zip
 # NoSource0-md5:	e137f760dd6f3b25b73ef3aa3a7a7fd9
 NoSource:	0
 URL:		http://input.fontbureau.com/
+BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/TTF
 Requires:	fontconfig >= 1:2.10.1
