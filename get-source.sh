@@ -10,9 +10,9 @@ prefix='Input-Font'
 snap=$(date +%Y%m%d%H%M%S)
 tmptarget="$prefix-$snap.zip"
 
-url='http://input.fontbureau.com/build/?fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&line-height=1.2&accept=I+do&email='
+url='http://input.djr.com/build/?fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&line-height=1.2&accept=I+do&email='
 licname="Font Software License Agreement"
-licurl=http://input.fontbureau.com/license/
+licurl=http://input.djr.com/license/
 
 cat <<EOF
 
